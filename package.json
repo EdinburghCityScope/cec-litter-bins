@@ -1,0 +1,38 @@
+{
+  "name": "cec-litter-bins",
+  "version": "1.0.0",
+  "description": "Edinburgh City Scope Loopback API on City of Edinburgh Council litter bins",
+  "main": "loopback/server/server.js",
+  "scripts": {
+    "start": "node .",
+    "pretest": "jshint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdinburghCityScope/cec-litter-bins.git"
+  },
+  "author": "Richard Omand-Good <richard.good@ed.ac.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdinburghCityScope/cec-litter-bins/issues"
+  },
+  "homepage": "https://github.com/EdinburghCityScope/cec-litter-bins#readme",
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-datasource-juggler": "^2.39.0",
+    "loopback-connector-mongodb": "^1.13.3",
+    "loopback-connector-rest": "^1.10.2",
+    "serve-favicon": "^2.0.1",
+    "json2csv": "^3.4.2",
+    "ospoint": "^0.2.0",
+    "edinburghcityscope-utils": "https://github.com/EdinburghCityScope/edinburghcityscope-utils.git#master"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  }
+}

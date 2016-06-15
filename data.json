@@ -1,0 +1,31 @@
+{
+  "id": "https://github.com/EdinburghCityScope/cec-litter-bins",
+  "title": "The City of Edinburgh Council litter bins",
+  "description": "Displays litter bins across Edinburgh.",
+  "landingPage" : "https://github.com/EdinburghCityScope/cec-litter-bins",
+  "issued": "2015-06-24",
+  "modified": "2015-06-24",
+  "language": ["en"],
+  "publisher": {
+    "name": "City of Edinburgh Council",
+    "mbox": "opendata@edinburgh.gov.uk"
+  },
+  "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+  "keyword": ["litter", "bins","City of Edinburgh Council"],
+  "distribution": [
+    {
+      "title": "Litter Bins CSV file",
+      "description": "CSV representation of litter bins",
+      "mediaType": "text/csv",
+      "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-recycling-points/master/data/litter-bins.csv",
+      "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+    },
+    {
+      "title": "Recyling points GeoJSON file",
+      "description": "GeoJSON representation of the litter bins",
+      "mediaType": "application/vnd.geo+json",
+      "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-recycling-points/master/data/litter-bins.geojson",
+      "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+    }
+  ]
+}

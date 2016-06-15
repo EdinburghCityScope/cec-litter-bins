@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "../../data/campus-maps-features.json" 
+  },
+ "MongoDB": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "uoeCampusMaps",
+    "name": "MongoDB",
+    "connector": "mongodb",
+    "debug": true
+  }
+}

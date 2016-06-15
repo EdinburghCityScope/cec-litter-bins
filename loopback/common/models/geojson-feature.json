@@ -1,0 +1,32 @@
+{
+  "name": "GeoJSONFeature",
+  "description": "A Campus Map pin represented as a GeoJSON Feature",
+  "plural": "GeoJSONFeatures",
+  "mongodb": {
+    "collection": "Features"
+  },
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id" : false,
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "properties": {
+      "type": "object",
+      "required": true
+    },
+    "geometry": {
+      "type": "GeoJSONGeometry",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
