@@ -29,6 +29,7 @@
     "loopback-connector-rest": "^1.10.2",
     "serve-favicon": "^2.0.1",
     "json2csv": "^3.4.2",
+    "csvtojson": "^0.5.14",
     "ospoint": "^0.2.0",
     "edinburghcityscope-utils": "https://github.com/EdinburghCityScope/edinburghcityscope-utils.git#master"
   },
