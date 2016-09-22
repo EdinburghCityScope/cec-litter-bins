@@ -1,6 +1,6 @@
 {
   "name": "GeoJSONFeature",
-  "description": "A Campus Map pin represented as a GeoJSON Feature",
+  "description": "A litter bin represented as a GeoJSON Feature",
   "plural": "GeoJSONFeatures",
   "mongodb": {
     "collection": "Features"
