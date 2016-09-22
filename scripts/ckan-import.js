@@ -7,7 +7,6 @@ var convertCkanAPIResultsToCityScopeJson = edinburghcityscopeUtils.convertCkanAP
 var parseCkanApiResponseFields = edinburghcityscopeUtils.parseCkanApiResponseFields;
 var parseCkanApiResult = edinburghcityscopeUtils.parseCkanApiResult;
 var convertCsvDataToGeoJson = edinburghcityscopeUtils.convertCsvDataToGeoJson;
-var csv2geojson = require('csv2geojson');
 var OSPoint = require('ospoint');
 var json2csv = require('json2csv');
 var Converter = require("csvtojson").Converter;

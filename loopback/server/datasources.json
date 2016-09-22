@@ -2,6 +2,6 @@
   "db": {
     "name": "db",
     "connector": "memory",
-    "file": "./data/recycle-points-loopback.json"
+    "file": "./data/litter-bins-loopback.json"
   }
 }
