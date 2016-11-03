@@ -90,7 +90,7 @@ function parseUrls(ckanDatasetUrls,parseCallback)
 
 parseUrls(ckanDatasetUrls,function(resultJson,fields){
   console.log("Creating CSV");
-  json2csv({ data: resultJson, fields: fields }, function(err, csv) {
+  json2csv({ data: resultJson, fields: fields, newLine: "\n" }, function(err, csv) {
     if (err)
     {
       console.log("Error thrown on json2csv"+err);
