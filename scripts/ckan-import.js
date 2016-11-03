@@ -30,8 +30,9 @@ function parseUrls(ckanDatasetUrls,parseCallback)
   for (var u=0;u<ckanDatasetUrls.length;u++)
   {
 
-
-    getDataFromURL(ckanDatasetUrls[u], function(callback){
+    getDataFromURL(ckanDatasetUrls[u], function(err, callback, ctx){
+      if (err) throw err
+      console.log("Fetched " + ctx)
 
       callbacks++;
 
@@ -81,7 +82,7 @@ function parseUrls(ckanDatasetUrls,parseCallback)
         parseCallback(resultJson,fields);
       }
 
-    });
+    }, ckanDatasetUrls[u]);
 
   }
 

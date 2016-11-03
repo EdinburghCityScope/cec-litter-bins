@@ -1,6 +1,6 @@
 {
   "name": "cec-litter-bins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Edinburgh City Scope Loopback API on City of Edinburgh Council litter bins",
   "main": "loopback/server/server.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "json2csv": "^3.4.2",
     "csvtojson": "^0.5.14",
     "ospoint": "^0.2.0",
-    "edinburghcityscope-utils": "https://github.com/EdinburghCityScope/edinburghcityscope-utils.git#master"
+    "edinburghcityscope-utils": "https://github.com/EdinburghCityScope/edinburghcityscope-utils.git#1.1.0"
   },
   "devDependencies": {
     "jshint": "^2.5.6"
